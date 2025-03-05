@@ -1,0 +1,140 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #003366;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#navbar {
+position: sticky;
+top: 0;
+width: 100%;
+background-color: #1A2A47;
+padding: 10px;
+z-index: 10;
+border: #1a3d6f solid 2px;
+}
+
+#navbar nav ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+#navbar nav ul li {
+margin: 0 15px;
+}
+
+#navbar nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+#navbar nav ul li a:hover {
+text-decoration: underline;
+}
+
+#welcome-section {
+background-image: url('background.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 95vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#welcome-section h1, #welcome-section h2 {
+color: #f4f4f4;
+font-size: 3em;
+margin: 5px;
+}
+#welcome-section h2 {
+  font-size: 1.5em;
+}
+
+#profilepic {
+width: 200px;
+height: 200px;
+margin-left: 50px;
+border-radius: 100px;
+border: #f4f4f4 solid 5px;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#projects, #certificates, #about {
+padding: 40px 20px;
+background-color: #1A2A47;
+border-top: #1a3d6f solid 2px;
+border-bottom: #1a3d6f solid 2px;
+text-align: center;
+margin-top: 20px;
+}
+
+#projects h2, #certificates h2, #about h2 {
+color: #f4f4f4;
+text-align: center;
+}
+
+#about p {
+width: 300px;
+height: 100px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+.project-tile, .project-tile2, .project-tile3 {
+color: #f4f4f4;
+background-color: #0E1C2C;
+margin: 20px;
+padding: 20px;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-tile2 a {
+color: #f4f4f4;
+text-decoration: none;
+}
+
+.project-tile2 a:hover {
+text-decoration: underline;
+}
+
+footer {
+padding: 20px;
+text-align: center;
+}
+
+#profile-link {
+color: #f4f4f4;
+text-decoration: none;
+}
+
+#profile-link:hover {
+text-decoration: underline;
+}
+
+.project-tile, .project-tile2, .project-tile3 {
+display: inline-block;
+margin: 10px;
+}
+
+.certificate img, .certificate {
+width: 300px !important;
+background-color: black !important;
+}
+
+.social-media {
+width: 300px;
+height: 100px;
+display: inline-block;
+margin: 10px 0;
+}
